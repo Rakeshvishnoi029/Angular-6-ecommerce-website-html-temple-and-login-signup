@@ -1,0 +1,17 @@
+.invalid-feedback{
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+ .is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545 !important;
+}
+.error{
+    color: #dc3545 !important;
+}
+.success{
+    color: #4bc719 !important; 
+}
+

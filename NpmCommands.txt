@@ -1,0 +1,5 @@
+
+npm install @types/jquery --save-dev // install jquery type as dev dependency so TS can compile properly
+npm install jquery --save // save jquery as a dependency
+
+import * as $ from "jquery";
